@@ -14,11 +14,7 @@ nobody has to queue at the main gate. A phone can only mark attendance when:
 The backend checks every signal. Every failed attempt is logged for the
 admin as a possible proxy attempt.
 
-> **Security notice.** The previous student-attendance version of this repo
-> committed a live Supabase *service-role* key, JWT secret and MQTT password to
-> this public repository, plus demo-account passwords. **Treat them as compromised:**
-> rotate them, or better, create a fresh Supabase project and HiveMQ account.
-> They are still in git history.
+
 
 ## Screenshots
 

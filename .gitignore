@@ -1,0 +1,56 @@
+# ── Secrets — never commit real keys ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+key.properties
+local.properties
+firmware/staff_beacon/secrets.h
+
+# ── OS / editors ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# ── Python (backend) ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ── Flutter / Dart (mobile) ──────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+mobile/android/.gradle/
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+mobile/android/captures/
+mobile/android/gradlew
+mobile/android/gradlew.bat
+mobile/android/gradle/wrapper/gradle-wrapper.jar
+mobile/android/app/.cxx/
+mobile/ios/
+
+# ── PlatformIO (firmware) ────────────────────────────────────────────────────
+.pio/
+
+# ── Mobile build config (copy mobile/config/example.json → dev.json) ────────
+mobile/config/*.json
+!mobile/config/example.json

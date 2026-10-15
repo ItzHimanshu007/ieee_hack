@@ -1,4 +1,6 @@
 # Smart Campus Staff Attendance (PS 23 · SKIT023)
+VIDEO LINK: https://youtu.be/ouUrAegyOGM
+VIDEO LINK: https://youtu.be/kPCZBMgw6rc
 
 Staff mark attendance **from their own phone once they are on campus**, so
 nobody has to queue at the main gate. A phone can only mark attendance when:
